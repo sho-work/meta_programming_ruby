@@ -1,0 +1,2 @@
+# meta_programming_ruby
+メタプログラミングrubyのナレッジ共有用リポジトリ
