@@ -1,0 +1,9 @@
+services:
+  # ここにgoもしくはrubyのアプリケーションコンテナを配置する予定
+  app:
+    image: ruby:3.2
+    container_name: app
+    volumes:
+      - .:/app
+    tty: true
+    working_dir: /app
